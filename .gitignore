@@ -1,0 +1,4 @@
+node_modules/
+# 运行时数据：下载的表情、浏览器登录状态、进度文件、wxemoticon 程序——都不进仓库
+data/
+vendor/

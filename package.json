@@ -1,0 +1,23 @@
+{
+  "name": "wechat2feishu",
+  "version": "0.1.0",
+  "description": "一键把微信电脑版里收藏的表情批量导入到飞书个人表情",
+  "type": "module",
+  "bin": {
+    "wechat2feishu": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "os": [
+    "win32"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "playwright-core": "1.64.1"
+  }
+}
